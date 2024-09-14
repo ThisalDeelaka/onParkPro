@@ -1,0 +1,87 @@
+/* register.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 40px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(10px); /* Safari 9+, iOS 9+ */
+  backdrop-filter: blur(10px); /* Supported by Chrome, Edge, and newer versions of Opera */
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.title h4 {
+  font-size: 32px;
+  color: #0c343d;
+  margin-bottom: 10px;
+}
+
+.title span {
+  color: #666;
+  font-size: 18px;
+}
+
+.textbox {
+  margin-bottom: 20px;
+}
+
+.textbox input {
+  width: calc(100% - 30px);
+  padding: 14px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: border-color 0.3s ease-in-out;
+  outline: none;
+}
+
+.textbox input:focus {
+  border-color: #0c343d;
+}
+
+.textbox button {
+  width: calc(100% - 30px);
+  padding: 14px;
+  margin-top: 20px;
+  background-color: #0c343d;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.textbox button:hover {
+  background-color: #06526d;
+}
+
+.text-center {
+  text-align: center;
+  font-size: 16px;
+}
+
+.text-center a {
+  color: #0c343d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.text-center a:hover {
+  text-decoration: underline;
+  color: #06526d;
+}

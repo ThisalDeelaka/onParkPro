@@ -1,0 +1,72 @@
+.deduct-inventory-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    width: 600px;
+  }
+  
+  .form-section {
+    background-color: #90cdf4; /* Adjust color as needed */
+    padding: 2rem;
+    border-radius: 0.5rem;
+  }
+  
+  .form-content {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-title {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #374151; /* Adjust color as needed */
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-label {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #374151; /* Adjust color as needed */
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db; /* Adjust color as needed */
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    color: #374151; /* Adjust color as needed */
+  }
+  
+  .form-actions {
+    margin-top: 1.5rem;
+  }
+  
+  .form-button {
+    background-color: #f97316; /* Adjust color as needed */
+    color: #ffffff; /* Adjust color as needed */
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #f59e0b; /* Adjust color as needed */
+  }
+  

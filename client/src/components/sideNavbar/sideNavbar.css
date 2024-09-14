@@ -1,0 +1,40 @@
+/* sideNavbar.css */
+
+.nav-container {
+    background-color: #1b5d6c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 18px;
+    color: #ffe599;
+    font-weight: 600;
+    padding: 40px 0;
+    z-index: 100;
+    box-sizing: border-box;
+  }
+  
+  .menu-button {
+    font-family: Inter, sans-serif;
+    margin: 20px 0 0 12px;
+    border: none;
+    background-color: transparent;
+    color: #ffe599;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    padding: 10px 15px;
+    /* Set a fixed width for the buttons */
+    width: 160px;
+    text-align: left;
+  }
+  
+  .menu-button:hover {
+    background-color: #ffe599;
+    color: #1b1b1b;
+  }
+  

@@ -1,0 +1,64 @@
+.insert-inventory-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .form-container {
+    width: 500px;
+  }
+  
+  .form-wrapper {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+  .form-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4a90e2; /* Adjust color as needed */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #357ebd; /* Adjust color as needed */
+  }
+  

@@ -1,0 +1,153 @@
+/* Scoped Styles */
+.reservation-page {
+  /* Container Styles */
+  /* Container Styles */
+  .reservation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Reservation.css */
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+  }
+
+  .form-container {
+    width: 100%; /* Take full width */
+    max-width: 800px; /* Set maximum width */
+    padding: 20px; /* Reduced padding */
+    background-color: #ffffff; /* White background */
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin-top: 20px; /* Reduced margin to separate from Navbar */
+    display: flex; /* Use flexbox for two-column layout */
+    flex-direction: column; /* Stack children vertically */
+    margin: 0 auto;
+  }
+
+  /* Heading Styles */
+  h1 {
+    font-size: 28px; /* Reduced font size */
+    font-weight: 700;
+    color: #333333; /* Dark gray color */
+    margin-bottom: 10px; /* Reduced margin */
+    text-align: center;
+  }
+
+  /* Label Styles */
+  label {
+    font-size: 16px; /* Reduced font size */
+    color: #555555; /* Medium gray color */
+    margin-bottom: 8px; /* Reduced margin */
+    display: block;
+  }
+
+  /* Input Styles */
+  input[type="text"],
+  input[type="date"],
+  input[type="time"],
+  select {
+    width: calc(100% - 20px); /* Full width for input elements minus padding */
+    padding: 10px; /* Reduced padding */
+    margin-bottom: 10px; /* Adjusted margin */
+    border: none;
+    border-radius: 10px;
+    background-color: #f5f5f5; /* Light gray background */
+    font-size: 14px; /* Reduced font size */
+    color: #333333; /* Dark gray color */
+    outline: none;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+
+  input[type="text"]:disabled {
+    background-color: #e0e0e0; /* Light gray background for disabled inputs */
+  }
+
+  /* Button Styles */
+  button {
+    width: 100%; /* Full width for button */
+    margin: 0 auto; /* Center button */
+    padding: 12px;
+    background-color: #197184; /* Blue button */
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px; /* Reduced font size */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    outline: none;
+    margin-top: 20px; /* Add margin to the bottom of the form */
+  }
+
+  button:hover {
+    background-color: #0c343d; /* Darker blue on hover */
+  }
+
+  /* Notification Styles */
+  .notification {
+    font-size: 12px; /* Reduced font size */
+    color: #ff0000; /* Red color for error messages */
+    margin-top: 8px; /* Reduced margin */
+    text-align: center;
+  }
+
+  /* Additional Styles for Time and Package Inputs */
+  .time-inputs {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .time-inputs label {
+    width: 48%; /* Adjusted width for time inputs */
+  }
+
+  .package-inputs {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .package-inputs label {
+    width: 48%; /* Adjusted width for package inputs */
+  }
+
+  /* Additional Styles for Vehicle Input */
+  .vehicle-input {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+  }
+
+  .vehicle-input label {
+    flex: 1; /* Distribute available space */
+    margin-bottom: 8px; /* Adjusted margin */
+    display: inline-block; /* Display as inline-block */
+    width: 30%; /* Set a percentage width for the label */
+  }
+
+  .vehicle-input select {
+    flex: 2; /* Take more space than label */
+    width: 65%; /* Set a percentage width for the select input */
+    padding: 10px; /* Reduced padding */
+    margin-bottom: 10px; /* Adjusted margin */
+    border: none;
+    border-radius: 10px;
+    background-color: #f5f5f5; /* Light gray background */
+    font-size: 14px; /* Reduced font size */
+    color: #333333; /* Dark gray color */
+    outline: none;
+  }
+
+  .row-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+    margin-bottom: 10px; /* Add margin between the rows */
+  }
+
+  .row-container label {
+    width: 48%; /* Adjusted width for each label */
+  }
+}

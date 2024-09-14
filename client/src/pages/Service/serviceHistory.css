@@ -1,0 +1,103 @@
+.container {
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+    
+    /* Header Styles */
+    .header {
+        text-align: center;
+    }
+    
+    .header h1 {
+        font-size: 48px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    /* Search Styles */
+    .search-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    
+    .search-input {
+        padding: 20px 30px; /* Increased padding */
+        border: 2px solid #0c343d;
+        border-radius: 30px;
+        font-size: 18px;
+        color: #333;
+        outline: none;
+        transition: border-color 0.3s ease;
+    }
+    
+    .search-input::placeholder {
+        color: #999;
+    }
+    
+    .search-input:focus {
+        border-color: #0056b3;
+    }
+    
+    .report-button {
+        padding: 20px 40px; /* Increased padding */
+        margin-left: 20px; /* Added margin for separation */
+        background-color: #0c343d;
+        color: #fff;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 18px;
+        outline: none;
+        transition: background-color 0.3s ease;
+    }
+    
+    .report-button:hover {
+        background-color: #0056b3;
+    }
+    
+    /* Table Styles */
+    .history-table {
+        width: 90%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        background-color: #fff;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .history-table th,
+    .history-table td {
+        padding: 20px;
+        border: 1px solid #ddd;
+        text-align: left;
+        font-size: 18px;
+        color: #333;
+    }
+    
+    .history-table th {
+        background-color: #0c343d;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    .history-table tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    
+    .history-table tr:hover {
+        background-color: #e2e2e2;
+        transition: background-color 0.3s ease;
+    }
+}

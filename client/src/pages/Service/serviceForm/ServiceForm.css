@@ -1,0 +1,76 @@
+.sform{
+ /* Styles for the form heading */
+.formheading {
+    font-size: 24px; /* Increased font size */
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styles for the form container */
+.create {
+    max-width: 600px;
+    margin: 20px auto 0; /* Add more margin at the top */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the input labels */
+.serviceType label {
+    font-size: 16px; /* Increased font size */
+    color: #555;
+    margin-bottom: 10px; /* Adjusted bottom margin */
+}
+
+/* Styles for text inputs */
+.serviceType input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px; /* Adjusted padding */
+    margin-bottom: 15px; /* Adjusted bottom margin */
+    border: none;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 16px; /* Increased font size */
+    transition: background-color 0.3s ease;
+}
+
+.serviceType input[type="text"]:focus {
+    background-color: #e0e0e0;
+}
+
+/* Styles for radio button container */
+.engineType {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px; /* Adjusted bottom margin */
+}
+
+/* Styles for radio button labels */
+.engineType label {
+    font-size: 16px; /* Increased font size */
+    color: #555;
+    cursor: pointer;
+}
+
+/* Styles for the submit button */
+.servicebtn {
+    background-color: #0c343d;
+    color: white;
+    border: none;
+    padding: 12px 40px; /* Adjusted padding */
+    border-radius: 25px;
+    font-size: 18px; /* Increased font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.servicebtn:hover {
+    background-color: #ffe69958;
+    color: black;
+}
+
+}

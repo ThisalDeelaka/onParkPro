@@ -1,0 +1,72 @@
+/* paymentReport.css */
+
+.page-container {
+  background-color: #f8f8f5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  position: relative; /* Added position relative for button positioning */
+}
+
+.reportHeader {
+  font-size: 36px;
+  color: #0c343d;
+  margin-bottom: 30px;
+  text-align: center; /* Centered the header text */
+}
+
+.error {
+  color: #ff0000;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#pdf-container {
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 800px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td {
+  padding: 12px 20px;
+  border-bottom: 1px solid #ccc;
+  font-size: 18px;
+  color: #444;
+}
+
+table td:first-child {
+  font-weight: bold;
+  color: #0c343d;
+  width: 30%;
+}
+
+.paybtnn {
+  padding: 14px 24px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0c343d;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  position: absolute;
+  top: 150px;
+  right: 100px;
+}
+
+.paybtnn:hover {
+  background-color: #06526d;
+}
+

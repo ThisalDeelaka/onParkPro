@@ -1,0 +1,100 @@
+/* login.css */
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.lContainer {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.lTitle {
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 32px;
+  color: #0c343d;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 18px;
+}
+
+.lInput {
+  width: calc(100% - 30px);
+  padding: 14px;
+  margin: 15px 0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: border-color 0.3s ease-in-out;
+  outline: none;
+}
+
+.lInput:focus {
+  border-color: #0c343d;
+}
+
+.lButton {
+  position: relative;
+  width: calc(100% - 30px);
+  padding: 14px;
+  margin: 20px 0;
+  background-color: #0c343d;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  transition: background-color 0.3s ease;
+}
+
+.lButton:hover {
+  background-color: #06526d;
+}
+
+.lButton:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background-color: #06526d;
+  transition: all 0.6s ease;
+  border-radius: 50%;
+  z-index: 0;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.lButton:hover:before {
+  width: 0;
+  height: 0;
+  opacity: 1;
+}
+
+.textToRegister {
+  font-size: 16px;
+  color: #666;
+  margin-top: 20px;
+}
+
+.textRegister {
+  color: #ff0000; /* Red color */
+  text-decoration: none;
+  font-weight: bold;
+}

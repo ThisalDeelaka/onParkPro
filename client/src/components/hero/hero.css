@@ -1,0 +1,176 @@
+.hero-section {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hero-section {
+    display: flex;
+    gap: 20px;
+  }
+  
+ 
+  .hero-background {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .hero-content {
+    width: 78%;
+    margin-left: 65px;
+    margin-top: 1;
+    background-color: #0c343d;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    font-size: 24px;
+    color: #ffe599;
+    font-weight: 600;
+    justify-content: center;
+    padding: 80px 60px;
+  }
+  
+  .hero-content a {
+    font-family: Inter, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+  }
+  
+  .hero-actions {
+    border-radius: 25px;
+    background-color: rgba(29, 46, 50, 0.5);
+    margin-top: 36px;
+    width: 562px;
+    max-width: 100%;
+    padding: 15px 24px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .hero-actions a {
+    font-family: Inter, sans-serif;
+  }
+  
+  .hero-section {
+    background-color: rgba(201, 203, 203, 0.5);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1px 0;
+  }
+  
+  .hero-background {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .hero-content {
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: rgba(20, 30, 32, 0.607);
+    display: flex;
+    margin-top: 6px;
+    width: 680px;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 37px 49px 16px 13px;
+  }
+  
+  .hero-title {
+    color: #fff;
+    margin: 0 0 0 21px;
+    font: 700 50px Inter, sans-serif;
+  }
+  
+  .hero-subtitle {
+    color: #ebe8e0;
+    margin: 18px 0 0 21px;
+    font: 500 40px Inter, sans-serif;
+  }
+  
+  .hero-actions {
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 36px;
+    width: 462px;
+    max-width: 100%;
+    padding: 15px 24px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .find-parks-button,
+  .list-parks-button {
+    border-radius: 20px;
+    background-color: #fad25b;
+    flex-grow: 1;
+    color: #000;
+    width: 20%;
+    justify-content: center;
+    padding: 20px 10px;
+    font: 500 26px Inter, sans-serif;
+    cursor: pointer;
+  }
+  
+  .list-parks-button {
+    background-color: #807c7c;
+    color: #fff;
+  }
+
+  .find-parks-button:hover,
+.list-parks-button:hover {
+  background-color: #0c343d;
+  color: #fff; 
+}
+  .park-stats {
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: rgba(5, 94, 114, 0.5);
+    margin-top: 2px;
+    margin-left: 70px; /* Adjust this value to give more space to the left corner */
+    width: 616px;
+    max-width: calc(100% - 50px); /* Adjusted to account for the margin */
+    padding: 15px 35px;
+    display: flex;
+    gap: 20px;
+  }
+  
+
+  
+  .park-stat {
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.623);
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    color: #ebe8e0;
+    font-weight: 500;
+    width: 33%;
+    padding: 26px 21px;
+  }
+  
+  .park-stat-count {
+    align-self: center;
+    font: 50px Inter, sans-serif;
+  }
+  
+  .park-stat-label {
+    margin-top: 15px;
+    font: 24px Inter, sans-serif;
+    align-self: center;
+  }
+  
+  

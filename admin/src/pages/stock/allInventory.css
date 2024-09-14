@@ -1,0 +1,156 @@
+/* Styles for the inventory container */
+.inventory-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styles for the legend wrapper */
+.legend-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.legend-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a catchy shadow */
+    background-color: rgb(97, 97, 96);
+}
+
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.legend-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: white; /* Change the color as needed */
+}
+
+
+/* Color for quantities less than 30% of alert level */
+.red {
+    background-color: red;
+}
+
+/* Color for quantities less than 60% of alert level */
+.orange {
+    background-color: orange;
+}
+
+/* Color for quantities less than 100% of alert level */
+.yellow {
+    background-color: yellow;
+}
+
+/* Styles for the search input */
+.search-wrapper {
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Styles for the button wrapper */
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Styles for the action buttons */
+.action-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for the table wrapper */
+.table-wrapper {
+    overflow-x: auto;
+}
+
+/* Styles for the inventory table */
+.inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Styles for table header and cell */
+.inventory-table th,
+.inventory-table td {
+    padding: 12px 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Styles for table header */
+.inventory-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+/* Styles for table cell */
+.inventory-table td {
+    background-color: #fff;
+}
+
+/* Styles for the last cell in each row */
+.inventory-table td:last-child {
+    text-align: center;
+}
+
+/* Styles for the delete button */
+.inventory-table button {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Styles for the second button in each row */
+.inventory-table button + button {
+    margin-left: 5px;
+}
+
+/* Hover styles for the buttons */
+.inventory-table button:hover {
+    background-color: #bb2d3b;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .inventory-container {
+        padding: 10px;
+    }
+}

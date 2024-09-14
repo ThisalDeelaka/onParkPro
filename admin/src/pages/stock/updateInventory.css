@@ -1,0 +1,114 @@
+/* Advanced Update Inventory Page Styling */
+
+/* Container Styles */
+.update-inventory-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4; /* Light background color */
+}
+
+/* Form Container Styles */
+.form-container {
+  width: 80%;
+  max-width: 500px;
+}
+
+/* Form Wrapper Styles */
+.form-wrapper {
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Form Heading Styles */
+.form-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-heading h2 {
+  font-size: 1.6rem; /* Larger heading */
+  color: #333; /* Darker text color */
+}
+
+.all-inventory-link {
+  color: #4a90e2;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.all-inventory-link:hover {
+  color: #2779bd; /* Darker color on hover */
+}
+
+/* Form Group Styles */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  color: #555; /* Dark gray text color */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd; /* Lighter border color */
+  border-radius: 8px;
+  font-size: 1.2rem;
+  transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+input:focus {
+  outline: none;
+  border-color: #4a90e2; /* Accent color on focus */
+}
+
+/* Error Message Styles */
+.error {
+  color: #ff5555;
+  font-size: 1rem;
+}
+
+/* Form Buttons Styles */
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"] {
+  background-color: #4a90e2;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background-color: #357ebd;
+}
+
+button[type="button"] {
+  background-color: #ff5555;
+  color: #fff;
+}
+
+button[type="button"]:hover {
+  background-color: #ff3333;
+}

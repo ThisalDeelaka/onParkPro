@@ -1,0 +1,113 @@
+/* profile.css */
+.profilemax{
+  .profilePage {
+    min-height: calc(100vh - 100px); /* Adjusted height to consider the navbar height */
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    background-color: #f9f9f9;
+  }
+  
+
+.wrapper {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  animation: fadeInUp 0.6s ease forwards;
+  justify-content: center;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.title h1 {
+  font-size: 20px;
+  color: #0c343d;
+  margin-bottom: 15px;
+}
+
+.updateButton,
+.logoutButton {
+  background-color: #0c343d;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.updateButton:hover,
+.logoutButton:hover {
+  background-color: #06526d;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.infoLabel label {
+  font-size: 16px;
+  color: #0c343d;
+}
+
+.infoData span {
+  font-size: 14px;
+  color: #666;
+}
+
+.inputField {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.inputField input {
+  width: calc(100% - 24px);
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.inputField input:focus {
+  border-color: #0c343d;
+  box-shadow: 0 0 8px rgba(12, 52, 61, 0.3);
+}
+
+.inputField label {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  font-size: 16px;
+  color: #666;
+  pointer-events: none;
+  transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+
+.inputField input:focus + label,
+.inputField input:not(:placeholder-shown) + label {
+  top: -12px;
+  font-size: 14px;
+  color: #0c343d;
+}
+}

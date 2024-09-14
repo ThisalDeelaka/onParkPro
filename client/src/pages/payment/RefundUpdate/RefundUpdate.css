@@ -1,0 +1,68 @@
+.update {
+    margin-left: 500px;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 400px;
+}
+
+.update h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.update .name {
+    margin-bottom: 20px;
+    margin-left: 0px;;
+}
+.update .phone {
+    margin-bottom: 20px;
+    margin-left: 0px;;
+}
+.update .email {
+    margin-bottom: 20px;
+    margin-left: 0px;;
+}
+.update .reoson {
+    margin-bottom: 20px;
+    margin-left: 0px;;
+}
+
+.update label {
+    display: block;
+    font-weight: bold;
+}
+
+.update input[type="text"],
+.update input[type="phone"],
+.update input[type="email"],
+.update input[type="reoson"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.update .uptbtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Error styles */
+.update .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Optional: Add more styles as needed */

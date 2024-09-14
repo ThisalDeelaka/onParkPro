@@ -1,0 +1,83 @@
+.refunddd {
+    max-width: 450px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #bebbbb;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(110, 109, 109, 0.1);
+    background-color: #fcfcf3;
+    margin-top: 50px;
+}
+
+.refundDetailsss {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 239);
+    margin-top: 20px;
+    border: 1px solid #b4b4b4;
+    height: auto;
+    padding: 20px;
+}
+
+.refundDetailsss > div {
+    margin-bottom: 15px;
+}
+
+.refundDetailsss label {
+    font-weight: bold;
+}
+
+.refundDetailsss input {
+    width: 90%;
+    padding: 10px;
+    background-color: #c0c0bd;
+    border-radius: 5px;
+    border: 1px solid #b4b4b0;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.refundDetailsss input.error {
+    border-color: red;
+}
+
+.paybtnnn {
+    width: 30%;
+    padding: 10px;
+    margin-left: 150px;
+    margin-top: 25px;
+    background-color: #1b1b1a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.paybtnnn:hover {
+    background-color: #6e6e6e;
+}
+
+.errorr {
+    color: red;
+    margin-top: 10px;
+}
+
+.successs {
+    color: green;
+    margin-top: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #0a0a0a;
+}
+.email{
+    width:80px;
+}
+
+.refundDetailsss  input.email{
+    width:300px;
+}

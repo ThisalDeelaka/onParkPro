@@ -1,0 +1,87 @@
+/* pform.css */
+.gateway{
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f5;
+  margin: 0;
+  padding: 0;
+}
+
+form.pay {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 32px;
+  color: #0c343d;
+  margin-bottom: 30px;
+}
+
+.cardDetails {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.cardDetails label {
+  font-size: 20px;
+  color: #0c343d;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+input.error {
+  border-color: #ff0000;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.button-container {
+  grid-column: 1 / -1; /* Span across both columns */
+}
+
+button.paybtn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0c343d;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.paybtn:hover {
+  background-color: #06526d;
+}
+
+.success {
+  background-color: #7ac29a;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 18px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+}

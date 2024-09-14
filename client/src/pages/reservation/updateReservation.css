@@ -1,0 +1,73 @@
+/* UpdateReservation.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 0.5em;
+}
+
+.form-container {
+  width: 400px;
+  padding: 20px;
+  background-color: #ffffff; /* Light blue background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+  margin-top: 20px; /* Add margin to separate from Navbar */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select {
+  appearance: none; /* Remove default arrow icon */
+  background-image: url('data:image/svg+xml;utf8,<svg fill="#333333" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 12px);
+  background-position-y: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.notification {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}

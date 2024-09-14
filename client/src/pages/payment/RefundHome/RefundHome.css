@@ -1,0 +1,78 @@
+/* styles.css */
+.home{
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a global font family and font size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Add some spacing to the top and bottom of the page */
+html, body {
+    height: 100%;
+}
+
+/* Create a centered layout for the main content */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+
+/* Style for a button */
+.button {
+    background-color: #0074d9;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #005ea6;
+}
+
+/* Add a subtle shadow to elements */
+.shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Create a responsive grid layout */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Style for individual grid items */
+.grid-item {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Add animation to elements */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease;
+}
+}

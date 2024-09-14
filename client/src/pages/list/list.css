@@ -1,0 +1,103 @@
+.listContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  margin-left: 150px; 
+  
+}
+
+.listWrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 20px;
+  
+}
+
+.listSearch {
+  flex: 1;
+  background-color: #ffe599;
+  padding: 10px;
+  border-radius: 10px;
+  position: sticky;
+  top: 10px;
+  height: max-content;
+}
+
+.listResult {
+  flex: 3;
+}
+
+.lsTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0c343d;
+  margin-bottom: 10px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.lsItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.lsItem>label{
+  font-size: 14px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-bottom: 5px;
+}
+
+.lsItem>input{
+  height: 30px;
+  border: none;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.lsOptionItem{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 14px;
+  background-color: white;
+  border-radius: 5px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 5px;
+}
+
+.lsOptionInput{
+  width: 50px;
+
+}
+
+.listSearch>button{
+  padding: 10px;
+  background-color: #1b6d7f;
+  color: white;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.lsFacilities {
+  margin-bottom: 10px;
+}
+
+.lsFacilities label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.lsFacilities input[type="checkbox"] {
+  margin-right: 5px;
+}
+

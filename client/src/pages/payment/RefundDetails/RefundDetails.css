@@ -1,0 +1,47 @@
+.refund-details {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.refund-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.refund-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.refund-table td:first-child {
+    font-weight: bold;
+    width: 30%;
+}
+
+.del-button,
+.update-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.del-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.update-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.del-button:hover,
+.update-button:hover {
+    opacity: 0.8;
+}
+
+/* Optional: Add more styles as needed */

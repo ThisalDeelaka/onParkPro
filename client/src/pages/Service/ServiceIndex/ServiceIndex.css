@@ -1,0 +1,106 @@
+/* ServiceIndex.css */
+
+.service {
+  html,
+  body {
+    overflow: hidden; /* Prevent scrolling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+
+  .main-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align buttons at the top */
+    height: 100vh; /* Adjusted to full viewport height */
+    padding: 0; /* Remove padding */
+    overflow: hidden;
+    font-weight: 400;
+  }
+
+  .background-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%; /* Cover entire viewport */
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .content-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Adjusted to column layout */
+    align-items: flex-start; /* Align text to the left */
+    width: 100%;
+    max-width: 1274px;
+    margin-top: 20px; /* Reduced margin top */
+    gap: 20px;
+  }
+
+  @media (max-width: 991px) {
+    .content-wrapper {
+      flex-wrap: wrap;
+      max-width: 100%;
+      margin-top: 20px; /* Reduced margin top */
+    }
+  }
+
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the left */
+    width: 100%; /* Ensure full width */
+    margin-bottom: 40px; /* Increase margin between heading and buttons */
+  }
+
+  .title {
+    color: #031d17;
+    font: italic 60px ABeeZee, -apple-system, Roboto, Helvetica, sans-serif; /* Adjusted font size */
+    letter-spacing: 3px; /* Slightly adjusted letter spacing */
+    mix-blend-mode: darken;
+    margin-left: 20px; /* Add margin to push it to the left */
+    margin-bottom: 60px;
+    margin-top: 20px;
+  }
+
+  @media (max-width: 991px) {
+    .title {
+      font-size: 30px; /* Adjusted font size */
+    }
+  }
+
+  .button-container {
+    display: flex;
+    align-items: flex-start; /* Align buttons to the top */
+    justify-content: space-between; /* Add space between buttons */
+    width: 100%; /* Ensure full width */
+    padding: 0 20px; /* Add padding to adjust button positioning */
+  }
+
+  .book-now-button {
+    padding: 20px 40px; /* Reduced padding */
+    color: #fff;
+    font: 30px Inder, sans-serif; /* Adjusted font size */
+    background-color: #08291d;
+    border-radius: 10px; /* Reduced border radius */
+  }
+
+  .skip-button {
+    padding: 20px 40px; /* Reduced padding */
+    color: #fff;
+    font: 30px Inder, sans-serif; /* Adjusted font size */
+    background-color: #b2abab;
+    border-radius: 10px; /* Reduced border radius */
+  }
+
+  @media (max-width: 991px) {
+    .book-now-button,
+    .skip-button {
+      margin-top: 20px; /* Reduced margin top */
+      padding: 15px 30px; /* Reduced padding */
+    }
+  }
+}

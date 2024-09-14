@@ -1,0 +1,108 @@
+/* navbar.css */
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* Header wrapper */
+.headerWrapper {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Top bar containing logo and navigation */
+.topBar {
+  display: flex;
+  width: 100%;
+  gap: 0; /* Remove any spacing between items */
+  color: #ffe599; /* Adjust color for better contrast */
+  background-color: #0c343d;
+  height: 90px;
+}
+
+/* Bottom bar with user greeting and logout button */
+.bottomBar {
+  background-color: #b0b1b1; /* Light gray background */
+  display: flex;
+  width: 100%;
+  gap: 0; /* Set gap to 0 for zero spacing */
+  color: #0c343d; /* Adjust text color */
+  height:40px; 
+  
+}
+
+/* Logo styling */
+.logo {
+  max-height: 100%;
+  object-fit: contain; /* Fit the logo within the container */
+  object-position: center; /* Center the logo horizontally and vertically */
+  width: 148px; /* Set a fixed width (you can adjust this as needed) */
+  max-width: 100%; /* Ensure the logo doesn't exceed its container */
+}
+
+
+
+.headerList {
+  background-color: #0c343d;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right; /* Adjusted to move items to opposite sides */
+  flex-grow: 1;
+  flex-basis: 0;
+  width: calc(100% - 100px); /* Adjusted to account for the logo width */
+  padding: 47px 50px; /* Adjust the padding as needed */
+}
+
+.userBtn {
+  display: flex;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  padding: 10px 20px; /* Adjust padding for a comfortable size */
+  height: 100%; /* Make both elements the same height as the bottomBar */
+  cursor: pointer;
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+}
+
+.userBtn:hover {
+  background-color: #0074d9; /* Blue color for hover effect */
+  color: white; /* Text color for hover state */
+}
+
+
+
+.headerListItem {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust the gap between items */
+  font-family: Inter, sans-serif;
+  font-size: 18px; /* Adjust the font size */
+  padding: 0 50px; /* Add padding to create space */
+}
+
+
+
+.headerListItem.active{
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
+.navButton{
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+}

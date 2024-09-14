@@ -1,0 +1,205 @@
+/* Container */
+.singlePage {
+  display: flex;
+  padding-left: 20px; /* Add padding to the left side */
+}
+
+/* Image */
+/* Image */
+.parkImg {
+  max-width: 100%; /* Adjusted to prevent image overflow */
+  max-height: 300px; /* Increased max-height */
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Added margin to the top */
+}
+
+
+/* Details */
+.details {
+  flex: 3;
+  overflow-y: auto; /* Changed to auto for better scrollbar handling */
+}
+
+/* Details Wrapper */
+.details .wrapper {
+  padding-right: 20px; /* Adjusted to balance padding */
+}
+
+/* Details Info */
+.details .wrapper .info {
+  margin-top: 50px;
+}
+
+/* Details Info Top */
+.details .wrapper .info .top {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Details Info Top Post */
+.details .wrapper .info .top .post {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Details Info Top Post Address */
+.details .wrapper .info .top .post .address {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: #888;
+  font-size: 14px;
+}
+
+/* Details Info Top Post User */
+.details .wrapper .info .top .post .user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 20px; /* Adjusted for better alignment */
+  border-radius: 10px;
+  background-color: rgba(254, 205, 81, 0.209);
+  font-weight: 600;
+}
+
+/* Features */
+.features {
+  flex: 2;
+  background-color: #fce6a6;
+  overflow-y: auto; /* Changed to auto for better scrollbar handling */
+}
+
+/* Features Wrapper */
+.features .wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Features Title */
+.features .wrapper .title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Features List Vertical */
+.features .wrapper .listVertical,
+.features .wrapper .listHorizontal {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Feature */
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Feature Text */
+.feature .featureText span {
+  font-weight: bold;
+}
+
+/* Feature Text Paragraph */
+.feature .featureText p {
+  font-size: 14px;
+}
+
+/* Sizes */
+.sizes {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Button Container */
+/* Button Container */
+.buttons {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  
+}
+
+/* Button */
+.buttons button {
+  border: none;
+  padding: 15px 30px; 
+  background-color: #0c343d; /* Change button color */
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  
+}
+
+.buttons button + button {
+  margin-left: 40px; /* Add small gap between buttons */
+}
+
+.buttons button:hover {
+  background-color: #052426; /* Darker shade on hover */
+}
+
+.buttons button:hover {
+  background-color: #052426; /* Darker shade on hover */
+}
+
+/* Sizes List */
+.singlePage .features .wrapper .sizes .size {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Vertical List */
+.singlePage .features .wrapper .listVertical {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Horizontal List */
+.singlePage .features .wrapper .listHorizontal {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.singlePage .details .wrapper .info .top .user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 50px;
+  border-radius: 10px;
+  background-color: rgba(254, 205, 81, 0.209);
+  font-weight: 600;
+}
+.singlePage .details .wrapper .info .top .post .price {
+  padding: 5px;
+  background-color: rgba(254, 205, 81, 0.438);
+  border-radius: 5px;
+  width: max-content;
+  font-size: 20px;
+  font-weight: 300;
+}
